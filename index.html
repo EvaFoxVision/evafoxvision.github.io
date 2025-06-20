@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EvaFoxVision - Territorio de los que despiertan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=1500&q=80') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Georgia', serif;
+      color: white;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.75);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      text-shadow: 0 0 20px #fff;
+    }
+    p {
+      font-size: 1.3em;
+      max-width: 600px;
+      margin: 0 auto 2em;
+      text-shadow: 0 0 10px #aaa;
+    }
+    .enter-btn {
+      padding: 15px 40px;
+      background: #ff6600;
+      color: white;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: 0 0 20px #ff6600;
+      transition: all 0.3s ease-in-out;
+    }
+    .enter-btn:hover {
+      background: #ffaa33;
+      box-shadow: 0 0 30px #ffaa33;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>EVAFOXVISION</h1>
+    <p>"Sólo los que miran más allá del velo podrán vernos."</p>
+    <button class="enter-btn" onclick="window.location.href='home.html'">Entrar al Territorio</button>
+  </div>
+</body>
+</html>
